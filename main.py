@@ -77,12 +77,12 @@ def check_possible_number(row, column, number):
     return True
 
 
-# Checks every free square (the zero's) and will input a valid guess. Will recursively rerun the function until a solution is found if there is one.
+# Checks every free square (blank strings) and will input a valid guess. Will recursively rerun the function until a solution is found if there is one.
 def recursive_solver():
     global grid
     screen_refresh()
 
-    # Checks every square in the grid that is a zero
+    # Checks every square in the grid that is an empty string
     for row in range(9):
         for column in range(9):
             if grid[row][column] == ' ':
