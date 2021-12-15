@@ -1,5 +1,5 @@
 # Automatic Sodoku Solver created by Brenton O'Brien
-# This command line based program will take an unsolved sodoku board (represented as a nested list with zeros as the unsolved squares) as input,
+# This command line based program will take an unsolved sodoku board (represented as a nested list with spaced strings as the unsolved squares) as input,
 # and will output all possible solutions
 
 # Imports
