@@ -5,6 +5,7 @@ You need to edit the source code to change what board the program will solve.
 
 The unsolved board in the source sode will look like this:
 
+```
 grid = [[6, 8, ' ', 9, ' ', ' ', 4, ' ', ' '],
         [' ', ' ', 3, ' ', 8, ' ', ' ', ' ', ' '],
         [' ', ' ', ' ', 2, 5, ' ', 6, 8, ' '],
@@ -14,6 +15,7 @@ grid = [[6, 8, ' ', 9, ' ', ' ', 4, ' ', ' '],
         [3, ' ', 7, 1, ' ', ' ', 5, ' ', ' '],
         [' ', 9, ' ', 5, 3, 8, 7, ' ', ' '],
         [' ', 5, 6, ' ', ' ', ' ', ' ', ' ', ' ']]
+```
         
 This is the board I used during testing as it has several solutions to it.
 Prefilled numbers are represented by integers: 1, 2, 3 etc, and unsolved squares are represented by single spaced strings: ' '.
